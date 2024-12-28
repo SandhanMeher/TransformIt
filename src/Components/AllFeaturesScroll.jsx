@@ -7,7 +7,7 @@ export default function AllFeaturesScroll() {
       <motion.div
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
-        className=" ml-32  h-16 min-w-28 border border-white/30 hover:border-white/80 rounded-full px-5 hover:font-bold text-white/80 hover:text-white flex items-center justify-center cursor-pointer transition-all duration-300"
+        className=" ml-96 md:ml-10  h-16 min-w-28 border border-white/30 hover:border-white/80 rounded-full px-5 hover:font-bold text-white/80 hover:text-white flex items-center justify-center cursor-pointer transition-all duration-300"
       >
         Img to Pdf
       </motion.div>
