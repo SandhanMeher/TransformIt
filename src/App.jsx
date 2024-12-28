@@ -18,6 +18,7 @@ function App() {
       
       {/* Subtle dot matrix */}
       <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_center,#6F5F58_1px,transparent_1px)] bg-[size:20px_20px] pointer-events-none" />
+      
 
       <ScrollLinked/>
       <WebName />
