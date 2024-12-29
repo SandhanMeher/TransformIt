@@ -1,14 +1,16 @@
 import React from "react";
 import { motion } from "framer-motion"; // Note: corrected import
 
+import { Link } from "react-router-dom";
+
 export default function AllFeaturesScroll() {
     const features = [
-        "Img to Pdf",
-        "Pdf Compressor",
-        "Pdf Merger",
-        "Image Compressor",
-        "Excel to Pdf",
-        "Word to Pdf"
+        { name: "Img to Pdf", link: "/imageToPdf" },
+        { name: "Pdf Compressor", link: "/pdfCompression" },
+        { name: "Pdf Merger", link: "/mergePdf" },
+        { name: "Image Compressor", link: "/imageCompression" },
+        { name: "Excel to Pdf", link: "/newFeatures" },
+        { name: "Word to Pdf", link: "/newFeatures" }
     ];
 
     return (
@@ -32,7 +34,9 @@ export default function AllFeaturesScroll() {
                         animate={{ scale: 1 }}
                         className="h-16 min-w-28 border border-white/30 hover:border-white/80 rounded-full px-5 hover:font-bold text-white/80 hover:text-white flex items-center justify-center cursor-pointer transition-all duration-300"
                     >
-                        {feature}
+                        <Link to={feature.link} className="text-white/80 hover:text-white">
+                            {feature.name}
+                        </Link>
                     </motion.div>
                 ))}
             </motion.div>

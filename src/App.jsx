@@ -1,6 +1,7 @@
 import "./App.css";
 import AllFeaturesScroll from "./Components/AllFeaturesScroll";
 import ImageCompressionn from "./Components/ImageCompressionn/ImageCompressionn";
+import DeveloperInfo from "./Components/Information/DeveloperInfo";
 import MergePdf from "./Components/MergePdf/MergePdf";
 import PdfCompression from "./Components/PdfCompression/PdfCompression";
 import ScrollTriggered from "./Components/ScrollTriggered";
@@ -24,15 +25,17 @@ function App() {
       <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_center,#6F5F58_1px,transparent_1px)] bg-[size:20px_20px] pointer-events-none" />
       
 
-      <ScrollLinked/>
+      <ScrollLinked bg={"#D4B3A5"} top={0}/>
+      <ScrollLinked bg={"#262220"} top={3}/>
       <WebName />
       <AllFeaturesScroll/>
       <ScrollTriggered/>
+      <DeveloperInfo/>
     </div>
   );
 }
 
- function ScrollLinked() {
+ function ScrollLinked({bg,top}) {
   const { scrollYProgress } = useScroll()
   const scaleX = useSpring(scrollYProgress, {
       stiffness: 90,
@@ -47,12 +50,12 @@ function App() {
               style={{
                   scaleX,
                   position: "fixed",
-                  top: 0,
+                  top: top,
                   left: 0,
                   right: 0  ,
                   height: 3,
                   originX: 0,
-                  backgroundColor: "#6F5F58",
+                  backgroundColor: bg,
                   zIndex: 9999,
               }}
           />

@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function ImageCompressionn() {
     const [compressionValue, setCompressionValue] = useState(50); // Default compression percentage
@@ -103,6 +104,9 @@ export default function ImageCompressionn() {
                     Download Compressed Image
                 </button>
             )}
+            <Link to="/" className="mt-4 text-blue-300 hover:underline">
+                Go Back to Home
+            </Link>
         </div>
     );
 }
