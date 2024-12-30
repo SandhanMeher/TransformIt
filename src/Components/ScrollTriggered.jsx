@@ -43,7 +43,7 @@ function Card({ emoji, image, hueA, hueB, i, url }) {
         <motion.div
           style={card}
           variants={cardVariants}
-          className="card flex flex-col gap-5"
+          className="card flex flex-col gap-10"
         >
           <h1>{emoji}</h1>
           <img src={image} className="" alt="image" />
