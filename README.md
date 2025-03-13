@@ -56,6 +56,7 @@ TransformIt is built using the following technologies:
 ├── src
     ├── App.css
     ├── App.jsx
+
     ├── Components
     │   ├── AllFeaturesScroll.jsx
     │   ├── Error
