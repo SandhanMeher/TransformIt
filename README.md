@@ -30,10 +30,15 @@ TransformIt is built using the following technologies:
 
 ## Project Structure 
 ├── .gitignore
+
 ├── README.md
+
 ├── eslint.config.js
+
 ├── index.html
+
 ├── package-lock.json
+
 ├── package.json
 ├── postcss.config.js
 ├── public
