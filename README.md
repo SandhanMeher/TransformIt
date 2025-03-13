@@ -28,6 +28,60 @@ TransformIt is built using the following technologies:
 - **PDF Handling**: jspdf, pdf-lib
 - **Animations**: Motion
 
+## Project Structure 
+├── .gitignore
+├── README.md
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── public
+    ├── ImageCompression.jpg
+    ├── ImageCompressionn.jpg
+    ├── MergePdf.jpg
+    ├── PdfCompression.jpg
+    ├── PdfFromExcel.jpg
+    ├── PdfFromImage.jpg
+    ├── WordToPdf.jpg
+    └── vite.svg
+├── src
+    ├── App.css
+    ├── App.jsx
+    ├── Components
+    │   ├── AllFeaturesScroll.jsx
+    │   ├── Error
+    │   │   ├── FeatureToCome.jsx
+    │   │   └── RouteNotMatched.jsx
+    │   ├── ImageCompressionn
+    │   │   └── ImageCompressionn.jsx
+    │   ├── ImageToPdf
+    │   │   └── ImageToPdf.jsx
+    │   ├── Information
+    │   │   └── DeveloperInfo.jsx
+    │   ├── MergePdf
+    │   │   └── MergePdf.jsx
+    │   ├── PdfCompression
+    │   │   └── PdfCompression.jsx
+    │   ├── ScrollTriggered.jsx
+    │   ├── WebName.jsx
+    │   └── features
+    │   │   └── BasicRating.jsx
+    ├── assets
+    │   ├── ImageCompression.jpg
+    │   ├── ImageCompressionn.jpg
+    │   ├── MergePdf.jpg
+    │   ├── PdfCompression.jpg
+    │   ├── PdfFromExcel.jpg
+    │   ├── PdfFromImage.jpg
+    │   ├── WordToPdf.jpg
+    │   ├── favicons.png
+    │   └── react.svg
+    ├── index.css
+    └── main.jsx
+├── tailwind.config.js
+└── vite.config.js
+
 ## Installation
 To run this project locally, follow these steps:
 
