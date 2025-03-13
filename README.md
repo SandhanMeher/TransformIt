@@ -53,7 +53,6 @@ TransformIt is built using the following technologies:
     ├── PdfFromImage.jpg
     ├── WordToPdf.jpg
     └── vite.svg
-
 ├── src
     ├── App.css
 
@@ -78,7 +77,6 @@ TransformIt is built using the following technologies:
     │   ├── WebName.jsx
     │   └── features
     │   │   └── BasicRating.jsx
-
     ├── assets
     │   ├── ImageCompression.jpg
     │   ├── ImageCompressionn.jpg
@@ -89,13 +87,9 @@ TransformIt is built using the following technologies:
     │   ├── WordToPdf.jpg
     │   ├── favicons.png
     │   └── react.svg
-
     ├── index.css
-
     └── main.jsx
-
 ├── tailwind.config.js
-
 └── vite.config.js
 
 ## Installation
